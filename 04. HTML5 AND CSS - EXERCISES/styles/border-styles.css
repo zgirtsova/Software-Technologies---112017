@@ -1,0 +1,15 @@
+p {
+    font-size: 50pt;
+    text-align: center;
+    border: 1px solid;
+    background-color: lightgray;
+    border-radius: 15px;
+    border-width: 5px;
+    padding: 5px;
+}
+.red{ border-color: red;}
+.red span{color: red;}
+.green{ border-color: green;}
+.green span{color: green;}
+.blue { border-color: blue;}
+.blue span{   color: blue;}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Numbers</title>
+</head>
+<body>
+    <ul>
+        <li th:each="i :${#numbers.sequence(1, 50)}"
+            th:text="${i}" />
+    </ul>
+
+</body>
+</html>

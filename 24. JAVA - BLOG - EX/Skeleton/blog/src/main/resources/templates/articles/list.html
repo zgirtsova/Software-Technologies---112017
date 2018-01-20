@@ -1,0 +1,14 @@
+<h1>Articles list</h1>
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Content</th>
+        <th>Author</th>
+    </tr>
+    <tr th:each="a: ${articles}">
+        <td th:text="${a.title}"></td>
+        <td th:text="${a.content}"></td>
+        <td th:text="${a.author.email}"></td>
+    </tr>
+</table>

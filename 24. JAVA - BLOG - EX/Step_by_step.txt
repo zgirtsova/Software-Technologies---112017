@@ -1,0 +1,78 @@
+1. Add article in folder Entity -> the entity Article goes in the database. 
+In it - @Entity -> анотираме ги (@ Column).
+
+2. Add ArticleRepository in folder repository, which is like 5-6 rows of code.
+
+3. Create ArticleController in folder controllers. @Controller -> so Spring finds it and configures it automatically.
+-> @GetMapping("/articles/list")
+
+4. Create directory articles in folder templates (where views are rendersed), so when you call "articles/list", 
+this thing is being displayed.
+
+5. In article controller code this: 
+
+	@PreAuthorize("isAuthenticated()")
+    @PostMapping("/articles/create")
+    public String create(Model model) {
+        List<Article> articles = articleRepo.findAll();
+        model.addAttribute("view", "articles/create");
+        return "base-layout";
+    }
+	
+6. Creating binding model in ArticleController we code the same as above, but model Model ArticleBindingModel.
+Then in /java/softuniBlog/bindingModel we create java file ArticleBindingModel.
+
+7. We take the current user as it: 
+
+@PreAuthorize("isAuthenticated()")
+    @PostMapping("/articles/create")
+    public String create(
+            Model model, ArticleBindingModel articleFormData)
+    {
+        try {
+            UserDetails userDetails =
+                    (UserDetails) SecurityContextHolder.getContext()
+                            .getAuthentication().getPrincipal();
+
+            User user = userRepo.findByEmail(userDetails.getUsername());
+
+            Article article = new Article();
+            article.setTitle(articleFormData.getTitle());
+            article.setContent(articleFormData.getContent());
+            article.setAuthor(user);
+            articleRepo.saveAndFlush(article);
+
+            return "redirect:/";
+        } catch (Exception ex) {
+            model.addAttribute("errorMsg", "Cannot create article.");
+            model.addAttribute("view", "articles/create");
+            return "base-layout";
+        }
+
+    }
+	
+8. Поправяме блога да работи с кирилица: In file /blog/src/main/resources/application.properties 
+we put :  spring.datasource.url = jdbc:mysql://localhost:3306/java_blog?createDatabaseIfNotExist=true&useSSL=false&useUnicode=yes&characterEncoding=UTF-8
+on the second row.
+
+9. In /resources/templates/fragments/header.html we make another list item to show button Article Create:
+					<li sec:authorize="isAuthenticated()">
+                        <a th:href="@{/articles/create}">
+                            Create Article
+                        </a>
+                    </li>
+10. 
+
+
+
+
+
+<h1>Welcome to My Blog</h1>
+
+<article class="blog-article" th:each="a:${articles}">
+    <div class="title" th:text="${a.title}"></div>
+    <div class="content" th:text="${a.summary}"></div>
+    <div class="author" th:text="${a.author.email}"></div>
+    <div><a th:href="@{/articles/view/{id}(id=@{a.title})}">Read more...</a></div>
+    <hr/>
+</article>

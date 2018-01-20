@@ -1,0 +1,89 @@
+LastSessions<|||>1<|||>Database Connection
+LastActiveSession<|||>1<|||>Database Connection
+ColWidths_connform.ListSessions<|||>1<|||>229,50,50,50,50,50,10
+ColsVisible_connform.ListSessions<|||>1<|||>0
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+ColWidths_frmTableEditor.listColumns<|||>1<|||>54,100,156,90,60,65,50,119,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>324,100,80
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>557,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+CoolBand0Index<|||>3<|||>0
+CoolBand0Break<|||>3<|||>1
+CoolBand0Width<|||>3<|||>1360
+CoolBand1Index<|||>3<|||>1
+CoolBand1Break<|||>3<|||>1
+CoolBand1Width<|||>3<|||>1360
+MainWinOnMonitor<|||>3<|||>0
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,275
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,275,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,154
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,215
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+SessionManager_WindowWidth<|||>3<|||>870
+SessionManager_WindowHeight<|||>3<|||>523
+ColWidths_UserManagerForm.listUsers<|||>1<|||>96,80
+ColsVisible_UserManagerForm.listUsers<|||>1<|||>0,1
+ColPositions_UserManagerForm.listUsers<|||>1<|||>0,1
+ColSort_UserManagerForm.listUsers<|||>1<|||>0,0
+MainWinMaximized<|||>3<|||>1
+Servers\Database Connection\SessionCreated<|||>1<|||>2016-10-31 14:03:39
+Servers\Database Connection\Host<|||>1<|||>127.0.0.1
+Servers\Database Connection\WindowsAuth<|||>3<|||>0
+Servers\Database Connection\User<|||>1<|||>root
+Servers\Database Connection\Password<|||>1<|||>3
+Servers\Database Connection\LoginPrompt<|||>3<|||>0
+Servers\Database Connection\Port<|||>1<|||>3306
+Servers\Database Connection\NetType<|||>3<|||>0
+Servers\Database Connection\Compressed<|||>3<|||>0
+Servers\Database Connection\LocalTimeZone<|||>3<|||>0
+Servers\Database Connection\QueryTimeout<|||>3<|||>0
+Servers\Database Connection\KeepAlive<|||>3<|||>0
+Servers\Database Connection\FullTableStatus<|||>3<|||>1
+Servers\Database Connection\Databases<|||>1<|||>
+Servers\Database Connection\Comment<|||>1<|||>
+Servers\Database Connection\StartupScriptFilename<|||>1<|||>
+Servers\Database Connection\SSHtunnelHost<|||>1<|||>
+Servers\Database Connection\SSHtunnelHostPort<|||>3<|||>0
+Servers\Database Connection\SSHtunnelUser<|||>1<|||>
+Servers\Database Connection\SSHtunnelPassword<|||>1<|||>3
+Servers\Database Connection\SSHtunnelTimeout<|||>3<|||>4
+Servers\Database Connection\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Database Connection\SSHtunnelPort<|||>3<|||>3307
+Servers\Database Connection\SSL_Active<|||>3<|||>0
+Servers\Database Connection\SSL_Key<|||>1<|||>
+Servers\Database Connection\SSL_Cert<|||>1<|||>
+Servers\Database Connection\SSL_CA<|||>1<|||>
+Servers\Database Connection\SSL_Cipher<|||>1<|||>
+Servers\Database Connection\ServerVersionFull<|||>1<|||>10.1.13-MariaDB - mariadb.org binary distribution
+Servers\Database Connection\ConnectCount<|||>3<|||>11
+Servers\Database Connection\ServerVersion<|||>3<|||>100113
+Servers\Database Connection\LastConnect<|||>1<|||>2017-12-16 09:53:18
+Servers\Database Connection\lastUsedDB<|||>1<|||>java_blog

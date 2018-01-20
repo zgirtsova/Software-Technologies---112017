@@ -1,0 +1,21 @@
+p {
+    font-size: 30pt;
+    text-align: center;
+}
+
+span{
+    border: green solid;
+    border-radius: 20px;
+    background: lightgray;
+}
+#main-paragraph {
+    font-size: 50pt;
+    text-align: left;
+    color: yellow;
+}
+.even {
+    color: cyan;
+}
+.odd {
+    color: lime;
+}

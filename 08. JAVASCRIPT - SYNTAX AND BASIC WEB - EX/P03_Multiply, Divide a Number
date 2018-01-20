@@ -1,0 +1,10 @@
+function multyOrDivide(arr) {
+    let num = Number(arr[0]);
+    let x = Number(arr[1]);
+
+    if(x >= num) {
+        return x * num;
+    } else {
+        return num / x;
+    }
+}
